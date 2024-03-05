@@ -1,1 +1,1 @@
-echo Haloo gaisss
+Haloo gaisss, Siapa kamu?
