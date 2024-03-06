@@ -1,2 +1,0 @@
-Username Database
-Password Database
