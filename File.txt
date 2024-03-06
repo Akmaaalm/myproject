@@ -1,1 +1,33 @@
-Perubahan pertama,
+graph LR
+A[Mulai] --> B{UMKM?}
+B --> C{Ya}
+C --> D{Unduh & Daftar} --> E{Input Produk & Profil} --> F{Tawarkan Produk}
+B --> G{Tidak} --> I[Akhiri]
+C --> H{Pembeli?}
+H --> J{Ya}
+J --> K{Cari Produk} --> L{Pilih Produk} --> M{Pesan & Bayar} --> N{Terima Produk}
+H --> O{Tidak} --> I
+C --> P{DagangYuk}
+P --> Q{Platform Terintegrasi} --> R{Bantu UMKM} --> S{Hubungkan UMKM} --> T{Edukasi & Pelatihan}
+P --> U{Pemerintah?}
+U --> V{Ya}
+V --> W{Dukungan Kebijakan} --> X{Kolaborasi dengan DagangYuk}
+U --> Y{Tidak} --> I
+P --> Z{Investor?}
+Z --> AA{Ya}
+AA --> AB{Danai UMKM} --> AC{Bantu Kembangkan Usaha}
+Z --> AD{Tidak} --> I
+C --> AE{Hasil}
+AE --> AF{UMKM: Efisiensi & Produktivitas}
+AE --> AG{UMKM: Daya Saing Meningkat}
+AE --> AH{UMKM: Akses Pasar & Peluang Baru}
+AE --> AI{UMKM: Akses Modal}
+AE --> AJ{Pembeli: Produk & Layanan Berkualitas}
+AE --> AK{Pembeli: Mendukung UMKM Lokal}
+AE --> AL{DagangYuk: Platform Terdepan}
+AE --> AM{DagangYuk: Kontribusi Ekonomi Nasional}
+AE --> AN{Pemerintah: Pertumbuhan Ekonomi}
+AE --> AO{Pemerintah: Lapangan Kerja Baru}
+AE --> AP{Investor: Keuntungan Investasi}
+AE --> AQ{Investor: Kontribusi Pembangunan Ekonomi}
+AE --> I
